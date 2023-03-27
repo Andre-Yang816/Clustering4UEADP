@@ -1,1 +1,4 @@
+在构建crossversion数据集后，首先运行CUDP_run.py，然后得到一个output文件夹
+执行getResultData.py对数据及进行处理，得到result文件夹
 
+随后执行RQ1/RQ2/RQ4的代码，其中论文里的RQ3实验包含在RQ2的实验中
