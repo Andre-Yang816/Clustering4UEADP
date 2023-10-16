@@ -1,7 +1,7 @@
 # This is the experiment corresponding to RQ2 in the paper
 
 
-## How to run the code in rq2?
+## How to run the code in RQ2?
 
 -First, copy the excel table in '../Result/' to './Data'
 -Second, run the ``'./code/Wilcoxon.py'`` you will get some tables in './output/'.
