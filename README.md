@@ -27,3 +27,11 @@ These summaries are the direct sources for RQ1 and RQ2 data, which will be used 
 
 ### Calculate p-value and draw pictures
 Execute the Python and R files in RQ1-RQ5/code directory. Detailed steps can be found in each subdirectory.
+
+### Dataset
+
+The PROMISE data sets used in RQ1 to RQ4 are in the Data directory and in the provided CrossersionData.zip. 
+
+The NASA and SOFTLAB data sets of our RQ5 experiment are provided in the RQ5 directory. 
+
+When conducting experiments, you need to unzip the CrossersionData.zip data to the current directory.
