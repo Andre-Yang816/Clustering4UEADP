@@ -26,7 +26,7 @@ The above code is used to statistically analyze preliminary results. It generate
 These summaries are the direct sources for RQ1 and RQ2 data, which will be used for calculations and plotting in subsequent steps.
 
 ### Calculate p-value and draw pictures
-Execute the Python and R files in RQ1-RQ5/code directory. Detailed steps can be found in each subdirectory.
+Execute the Python and R files in from RQ1/code to RQ5/code directory. Detailed steps can be found in each subdirectory.
 
 ### Dataset
 
