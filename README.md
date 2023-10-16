@@ -4,7 +4,7 @@
 
 ### Experimental Environment:
 - Python 3.6 (Not recommended to use higher versions as some libraries may not support them)
-- R 4.3.1 (Version doesn't matter, but it's recommended to use the latest version)
+- R 4.3.1 (Recommended to use the latest version)
 
 Library Functions
 Execute requirements.txt
