@@ -3,9 +3,9 @@
 
 ## How to run the code in RQ2?
 
--First, copy the excel table in '../Result/' to './Data'
+- First, copy the excel table in '../Result/' to './Data'
 
--Second, run the ``python Wilcoxon.py`` you will get some tables in './output/'.
+- Second, run the ``python Wilcoxon.py`` you will get some tables in './output/'.
 
 Actually, now we get the p-values, this is the result appended to the end of RQ2 of our paper.
 
