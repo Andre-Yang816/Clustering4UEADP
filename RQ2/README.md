@@ -5,8 +5,8 @@
 
 - First, copy the excel table in '../Result/' to './Data'
 
-- Second, run the ``python Wilcoxon.py`` you will get some tables in './output/'.
+- Second, run the ``python './code/Wilcoxon.py'`` you will get some tables in './output/'.
 
-Actually, now we get the p-values, this is the result appended to the end of RQ2 of our paper.
+In fact, now you have the p-value, which is appended to the end of RQ2 of our paper.
 
-run the ``'./code/drawic.py'`` you will obtain some pictures, these plots are the results of RQ3.
+-run ``python './code/drawic.py'`` you will obtain some pictures, these plots are the results of RQ3.
