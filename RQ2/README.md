@@ -1,4 +1,4 @@
-# This is the experiment corresponding to RQ2 in the paper
+# This is the experiment corresponding to RQ2 and RQ3 in our paper
 
 
 ## How to run the code in RQ2?
