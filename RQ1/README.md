@@ -4,7 +4,7 @@
 
 - Run ``'./code/SKESD.R'`` to get the .txt file in the output folder;
 
-- Run ``python DrawPicture.py`` gets the result of Figure 6-11 of the paper (stored in the pictures directory);
+- Run ``python './code/DrawPicture.py'`` gets the result of Figure 6-11 of the paper (stored in the pictures directory);
 
 - Run ``'./code/sk_esd.R'`` to get the result of Figure 12-17 of the paper Results (stored in the picture_sk directory).
 
