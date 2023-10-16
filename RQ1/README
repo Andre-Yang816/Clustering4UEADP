@@ -1,10 +1,10 @@
-这个目录对应了论文RQ1的实验结果图的绘制，包含了code, data, and outputs.
+#This directory corresponds to the drawing of the experimental results of paper RQ1, including code, data, output, picture_sk, and pictures.
 
-环境：
-pyhton 3.7 
+## Usage
 
-RStudio
+First, execute
+``'./code/SKESD.R'``
+to get the .txt file in the output folder and execute
+``'./code/DrawPicture.py'`` gets the result of Figure 6-11 of the paper (stored in the pictures directory), execute ``'./code/sk_esd.R'`` to get the result of Figure 12-17 of the paper Results (stored in the picture_sk directory).
 
-Usage
-
-首先，执行'./code/SKESD.R' 得到output文件夹下的txt文件，执行'./code/DrawPicture.py'得到论文图6-11的结果，执行'./code/sk_esd.R'得到论文图12-17的结果。
+Note: Before executing the code, you need to copy all the tables in the Result folder obtained previously to the 'main/RQ1/DrawPicData' directory, or you can directly change the path to read the data.
