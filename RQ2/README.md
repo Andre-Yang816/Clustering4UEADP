@@ -1,5 +1,8 @@
-#这是对应论文中RQ2的实验
-#包含了code, data, and output (i.e., the p-value data and some pictures).
+这是对应论文中RQ2的实验
+
+
+包含了code, data, and output (i.e., the p-value data and some pictures).
+
 
 How to run the code in rq2?
 
