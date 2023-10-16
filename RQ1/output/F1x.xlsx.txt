@@ -1,0 +1,23 @@
+"x"
+"Bang.LOC" 1
+"AP.LOC" 2
+"Kmedoids.LOC" 2
+"Dbscan.LOC" 2
+"Optics.LOC" 2
+"Cure.LOC" 3
+"Rock.AMC" 3
+"EMA.NPM" 3
+"Xmeans.NPM" 3
+"KmeansPlus.LOC" 3
+"Agglomerative.LOC" 3
+"Bsas.LCOM3" 3
+"Mbsas.LCOM3" 3
+"Ttsas.NPM" 3
+"MiniBatchKmeans.LOC" 3
+"Gmeans.LCOM3" 3
+"Kmeans.LOC" 3
+"Syncsom.LCOM" 3
+"MeanShift.LCOM" 3
+"Fcm.Ce" 3
+"Birch.Ce" 3
+"Somsc.RFC" 3
