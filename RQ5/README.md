@@ -6,5 +6,6 @@ Run ``python dis_code.py`` to get the results table of all methods on the datase
 
 Then run ``python getData.py`` to get the performance values of all methods under each indicator.
 ### Draw
-Run ``SKESD.R`` and ``Draw_pictures.py`` to get the results of Figure 19-23 in the paper.
+Run ``SKESD.R`` and ``Draw_pictures.py`` to get the results of Figure 19-23 in the paper. 
+
 Run ``sk_esd.R`` to obtain the results of Figures 24-28 of the paper.
