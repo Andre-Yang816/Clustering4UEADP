@@ -24,7 +24,7 @@ The above code is used to statistically analyze preliminary results. It generate
 ### Calculate p-value and draw pictures
 Execute the Python and R files in from RQ1/code to RQ5/code directory. Detailed steps can be found in each subdirectory.
 
-**Note** that there is no RQ3 in our directory. This is because the results of RQ2 and RQ3 can be obtained through the same piece of code, which will reduce a certain amount of work. Therefore, we merged the RQ3 code into RQ2, which you can see in the RQ2 directory. More detailed explanation.
+**Note** that there is no RQ3 in our directory. This is because the results of RQ2 and RQ3 can be obtained through the same piece of code, which will reduce a certain amount of work. Therefore, we have merged the RQ3 code into RQ2, which you can see in the RQ2 directory. More detailed explanation.
 ### Dataset
 
 The PROMISE data sets used in RQ1 to RQ4 are in the Data directory and in the provided CrossersionData.zip. 
