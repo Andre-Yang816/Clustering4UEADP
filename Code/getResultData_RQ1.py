@@ -11,9 +11,7 @@ header = [
     "BSAS", 'MBSAS', 'TTSAS',
     "BANG"
 ]
-#functions = ["AP", "Agglomerative", "Bang", "Birch", "Bsas", "Cure", "Dbscan",
-          #'EMA','Fcm','Gmeans','KmeansPlus', 'Kmeans', 'Kmedoids', 'Mbsas', 'MeanShift', 'MiniBatchKmeans','Optics',
-          #'Rock', 'Somsc', 'Syncsom', 'Ttsas', 'Xmeans']
+
 functions = ['ManualUp',
              'Kmeans', 'Kmedoids', 'Xmeans', 'Fcm', 'Gmeans', 'MiniBatchKmeans', 'KmeansPlus',
              'Birch', 'Cure', 'Rock', "Agglomerative",
