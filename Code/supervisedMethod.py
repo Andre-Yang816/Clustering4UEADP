@@ -141,7 +141,6 @@ def ClassificationByEASC(X, Y, testX, testingcodeN):
     return LR_pred3
 
 def ClassificationByCbs(X, Y, testX, testingcodeN):
-    # # 逻辑回归
     LR = LogisticRegression()
     LR_tuned_parameters = [{'tol': [0.1, 0.01, 0.001, 0.0001, 0.00001],
                            'penalty':['l1','l2', 'elasticnet', 'none'],
@@ -189,7 +188,7 @@ def ClassificationByRandomForest(X, Y, testX, testingcodeN):
     model = optimizeParameter(model, X, Y, RFC_tuned_parameters)
     LR_pred = model.predict_proba(testX)
 
-    LR_pred = [p[1] for p in LR_pred]  # 概率当做缺陷个数
+    LR_pred = [p[1] for p in LR_pred]  
     LR_pred3 = []
     for j in range(len(LR_pred)):
         if testingcodeN[j] != 0:
@@ -243,19 +242,6 @@ def transform_data(original_data):
             y_list.append(0)
     return original_data_X, y_list
 
-# def transform_data1(original_data):
-#     original_data = original_data.iloc[:, :]
-#
-#     original_data = np.array(original_data)
-#
-#     k = len(original_data[0])
-#
-#     original_data = np.array(original_data)
-#     original_data_X = original_data[:, 0:k - 1]
-#
-#     original_data_y = original_data[:, k - 1]
-#
-#     return original_data_X, original_data_y
 
 def calculateASFM(X):
     features_sum = np.sum(X)
@@ -323,9 +309,6 @@ if __name__ == '__main__':
                     dataset_test = pd.read_csv(file_path_test)
                     training_data_x, training_data_y = transform_data(dataset_train)
                     testing_data_x, testing_data_y = transform_data(dataset_test)
-                    # model = RandomUnderSampler()
-                    # training_data_x, training_data_y=model.fit_resample(training_data_x, training_data_y)
-
                     testingcodeN = testing_data_x[:, 10]
 
                     functions = {'CBS+': ClassificationByCbs,
