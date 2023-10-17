@@ -36,4 +36,4 @@ When conducting experiments, you need to unzip the CrossersionData.zip data to t
 ### Code
 - ``CUDP.py``: The 22 unsupervised clustering methods are clustered and evaluated on the PROMISE dataset.
 - ``supervisedMethod.py``: The 6 supervised EADP methods are trained and evaluated on the PROMISE dataset.
-- ``getResultData_RQ1.py`` or ``getResultData_RQ2.py``: In order to facilitate subsequent operations, these two files further process the evaluation results and integrate all results corresponding to each evaluation indicator into the same table.
+- ``getResultData_RQ1.py`` and ``getResultData_RQ2.py``: In order to facilitate subsequent operations, these two files further process the evaluation results for RQ1 and RQ2 and integrate all results corresponding to each evaluation indicator into the same table.
