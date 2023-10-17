@@ -152,7 +152,7 @@ if __name__ == '__main__':
                         y_predict, func_name = func(*args)
                         performance_result = [[0] * 9] * 20
                         iterations = 1
-                        print('方法：{0}'.format(func_name))
+                        print('Function：{0}'.format(func_name))
                         for p in range(iterations):
                             # Use ASFM to classify clustering results as defective or defect-free
                             # step2：Sort the defects according to their eigenvalues (20 dimensions) from small to large.
