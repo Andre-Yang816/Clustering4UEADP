@@ -39,20 +39,6 @@ def transform_data(original_data):
             y_list.append(0)
     return original_data_X, y_list
 
-# def transform_data1(original_data):
-#     original_data = original_data.iloc[:, :]
-#
-#     original_data = np.array(original_data)
-#
-#     k = len(original_data[0])
-#
-#     original_data = np.array(original_data)
-#     original_data_X = original_data[:, 0:k - 1]
-#
-#     original_data_y = original_data[:, k - 1]
-#
-#     return original_data_X, original_data_y
-
 def calculateASFM(X):
     features_sum = np.sum(X)
     asfm = features_sum / (len(X)*len(X[0]))
