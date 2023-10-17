@@ -27,7 +27,6 @@ def getArgMax(path):
     folder_path = path
     init_list = [[0.]*8]*20
     result_data = pd.DataFrame(columns=functions, data=init_list)
-    # 读取文件
     for root, dirs, files, in os.walk(folder_path):
         if root == folder_path:
             thisroot = root
