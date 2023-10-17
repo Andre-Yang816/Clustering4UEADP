@@ -31,7 +31,6 @@ The PROMISE data sets used in RQ1 to RQ4 are in the Data directory and in the pr
 
 The NASA and SOFTLAB data sets of our RQ5 experiment are provided in the RQ5 directory. 
 
-When conducting experiments, you need to unzip the CrossersionData.zip data to the current directory.
 
 ### Code
 - ``CUDP.py``: The 22 unsupervised clustering methods are clustered and evaluated on the PROMISE dataset.
