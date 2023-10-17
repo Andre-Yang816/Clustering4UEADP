@@ -150,8 +150,6 @@ if __name__ == '__main__':
                             # index_real = [i for i in range(len(y_predict)) if testing_data_y[i] > 0]
                             # Extract the number of lines of code for workload interception
                             testingcodeN = testing_data_x[:, 10]
-                            # print(testing_data_x)
-                            # preDensity = ClassificationByCbs(training_data_x, training_data_y, testing_data_x, testingcodeN)
                             defectX = np.array(defectX)
                             undefectX = np.array(undefectX)
                             #print(undefectX)
