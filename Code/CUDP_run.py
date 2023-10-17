@@ -90,10 +90,6 @@ if __name__ == '__main__':
                         file_path_test = os.path.join(dir_path, files[0])
                         trainingfile = files[1]
                         testingfile = files[0]
-
-                    #print('files[0][-7:-4]', files[0][-7:-4])
-                    #print('files[1][-7:-4]', files[1][-7:-4])
-                    #print(files[0][-7:-4], '>', files[1][-7:-4])
                     print('train', file_path_train)
                     print('test', file_path_test)
                     print('***********************************')
@@ -181,11 +177,7 @@ if __name__ == '__main__':
                                 testY = np.array(testing_data_y)[sort_y].tolist()
                                 predY = np.append(defectY, undefectY)
                                 sorted_code = testingcodeN[sort_y]
-                                Precisionx, Recallx, F1x, IFA, PofB, PMI= Performance(testY,
-                                                                                                            predY,
-                                                                                                            sorted_code)
-                                #popt = Popt(testY, sorted_code, sort_y)
-
+                                Precisionx, Recallx, F1x, IFA, PofB, PMI= Performance(testY, predY, sorted_code)
                                 precision, recall, f1 = evaluate_classify(testY, predY)
                                 header = ["Precision", "Recall", "F1", "Precisionx", "Recallx", "F1x", "IFA", "Pofb",
                                           "PMI"]
