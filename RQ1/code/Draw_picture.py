@@ -121,16 +121,6 @@ class BoxPlot:
 
             lenheader = len(header) + 1
 
-            # new_header = [
-            #           'Kmeans.LOC', 'Kmedoids.LOC', 'Xmeans.NPM', 'Fcm.Ce', 'Gmeans.LCOM3', 'MiniBatchKmeans.LOC', 'Kmeans++.LOC',
-            #           'Birch.Ce', 'Cure.LOC', 'Rock.AMC', "Agglomerative.LOC",
-            #           "Dbscan.LOC", 'Optics.LOC', 'MeanShift.LCOM',
-            #           'Somsc.RFC', 'Syncsom.LCOM', 'EMA.NPM',
-            #           "AP.LOC",
-            #           "Bsas.LCOM3", 'Mbsas.LCOM3', 'Ttsas.NPM',
-            #           "Bang.LOC"
-            #           ]
-
             new_header = [
                 'K-means.LOC', 'K-medoids.LOC', 'X-means.NPM', 'FCM.Ce', 'G-means.LCOM3', 'MiniBatchKmeans.LOC',
                 'Kmeans++.LOC',
